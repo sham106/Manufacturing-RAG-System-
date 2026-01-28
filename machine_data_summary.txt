@@ -1,0 +1,38 @@
+MANUFACTURING DATASET SUMMARY REPORT
+==================================================
+
+Dataset Overview:
+- Total Records: 6,048
+- Date Range: 2024-01-15 00:00:00 to 2024-01-21 23:55:00
+- Machines: MC001, MC002, MC003
+- Data Interval: 5 minutes
+
+Fault Code Distribution:
+- 0 (No Fault): 5,643 records (93.3%)
+- E001 (Emergency Stop): 98 records (1.6%)
+- E003 (Temperature High): 91 records (1.5%)
+- E002 (Material Jam): 80 records (1.3%)
+- E005 (Feeder Empty): 66 records (1.1%)
+- E004 (Vibration Exceeded): 55 records (0.9%)
+- E006 (Quality Issue): 15 records (0.2%)
+
+Machine Performance Summary:
+- MC001:
+  * Average Speed: 82.5 boards/min
+  * Average OEE: 79.7%
+  * Uptime: 92.5%
+- MC002:
+  * Average Speed: 107.0 boards/min
+  * Average OEE: 79.7%
+  * Uptime: 92.6%
+- MC003:
+  * Average Speed: 79.9 boards/min
+  * Average OEE: 81.7%
+  * Uptime: 94.8%
+
+Key Insights for ML Model Development:
+- Dataset includes realistic fault patterns with varying durations
+- Temperature and vibration correlate with machine performance
+- Shift patterns affect overall efficiency
+- Counter values show cumulative production tracking
+- OEE calculations based on availability, performance, and quality

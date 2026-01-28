@@ -1,0 +1,9 @@
+{
+  "0": "No Fault",
+  "E001": "Emergency Stop",
+  "E002": "Material Jam",
+  "E003": "Temperature High",
+  "E004": "Vibration Exceeded",
+  "E005": "Feeder Empty",
+  "E006": "Quality Issue"
+}

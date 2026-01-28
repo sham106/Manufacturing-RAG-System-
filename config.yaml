@@ -1,0 +1,56 @@
+# LM Studio Configuration
+llm:
+  base_url: "http://localhost:1234/v1"  # LM Studio server address
+  model: "local-model"                   # LM Studio uses this as default
+  temperature: 0.1                       # Lower = more focused answers (0-1)
+  max_tokens: 1000                       # Maximum response length
+
+# Embedding Model (converts text to numbers for searching)
+embeddings:
+  model_name: "sentence-transformers/all-MiniLM-L6-v2"  # Fast, good quality
+  device: "cpu"  # Use "cuda" if you have NVIDIA GPU
+
+# Vector Database (where we store searchable data)
+vector_store:
+  type: "chromadb"  # Options: "chromadb" or "faiss"
+  persist_directory: "./chroma_db"  # Where to save the database
+  collection_name: "manufacturing_data"
+  
+# Data Files
+data:
+  machine_data: "./machine_data.csv"
+  inventory_data: "./paper_inventory_data.json"
+  
+# RAG Settings (how the system retrieves information)
+rag:
+  chunk_size: 500          # How many characters per data chunk
+  chunk_overlap: 50        # Overlap between chunks for context
+  top_k_results: 5         # How many relevant chunks to retrieve
+  
+# Forecasting Settings
+forecasting:
+  forecast_periods: 3      # Default months to forecast
+  confidence_level: 0.95   # 95% confidence intervals
+  safety_factor: 1.2       # 20% safety stock buffer
+  lead_time_days: 30       # Supplier lead time
+
+# Manufacturing Context (helps AI understand domain)
+manufacturing:
+  fault_codes:
+    "0": "No Fault"
+    "E001": "Emergency Stop"
+    "E002": "Material Jam"
+    "E003": "Temperature High"
+    "E004": "Vibration Exceeded"
+    "E005": "Feeder Empty"
+    "E006": "Quality Issue"
+  
+  machines:
+    - "MC001"
+    - "MC002"
+    - "MC003"
+  
+  paper_types:
+    - "Test liner"
+    - "White top"
+    - "Flute"

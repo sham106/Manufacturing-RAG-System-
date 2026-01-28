@@ -1,0 +1,131 @@
+{
+  "paper_types": [
+    {
+      "type": "Test liner",
+      "dimension_in_mm": 1950
+    },
+    {
+      "type": "Test liner",
+      "dimension_in_mm": 2000
+    },
+    {
+      "type": "Test liner",
+      "dimension_in_mm": 2050
+    },
+    {
+      "type": "Test liner",
+      "dimension_in_mm": 2100
+    },
+    {
+      "type": "Test liner",
+      "dimension_in_mm": 2150
+    },
+    {
+      "type": "Test liner",
+      "dimension_in_mm": 2200
+    },
+    {
+      "type": "White top",
+      "dimension_in_mm": 1700
+    },
+    {
+      "type": "White top",
+      "dimension_in_mm": 1750
+    },
+    {
+      "type": "White top",
+      "dimension_in_mm": 1950
+    },
+    {
+      "type": "White top",
+      "dimension_in_mm": 2000
+    },
+    {
+      "type": "White top",
+      "dimension_in_mm": 2050
+    },
+    {
+      "type": "White top",
+      "dimension_in_mm": 2100
+    },
+    {
+      "type": "White top",
+      "dimension_in_mm": 2150
+    },
+    {
+      "type": "White top",
+      "dimension_in_mm": 2200
+    }
+  ],
+  "consumption_history": [
+    {
+      "year": 2025,
+      "month": 5,
+      "consume_in_kg": 14705,
+      "type": "Flute",
+      "dimension_in_mm": 1700
+    },
+    {
+      "year": 2025,
+      "month": 6,
+      "consume_in_kg": 24487,
+      "type": "Flute",
+      "dimension_in_mm": 1700
+    },
+    {
+      "year": 2025,
+      "month": 7,
+      "consume_in_kg": 13160,
+      "type": "Flute",
+      "dimension_in_mm": 1700
+    },
+    {
+      "year": 2025,
+      "month": 8,
+      "consume_in_kg": 15375,
+      "type": "Flute",
+      "dimension_in_mm": 1700
+    },
+    {
+      "year": 2025,
+      "month": 9,
+      "consume_in_kg": 19969,
+      "type": "Flute",
+      "dimension_in_mm": 1700
+    },
+    {
+      "year": 2025,
+      "month": 10,
+      "consume_in_kg": 18946,
+      "type": "Flute",
+      "dimension_in_mm": 1700
+    },
+    {
+      "year": 2025,
+      "month": 12,
+      "consume_in_kg": 19705,
+      "type": "Flute",
+      "dimension_in_mm": 1700
+    },
+    {
+      "year": 2026,
+      "month": 1,
+      "consume_in_kg": 9082,
+      "type": "Flute",
+      "dimension_in_mm": 1700
+    }
+  ],
+  "metadata": {
+    "description": "Paper inventory types and historical consumption data for forecasting module",
+    "units": {
+      "dimension": "millimeters (mm)",
+      "consumption": "kilograms (kg)"
+    },
+    "notes": [
+      "Consumption data is monthly aggregated",
+      "Missing months indicate zero or unavailable consumption",
+      "Paper types include Test liner, White top, and Flute",
+      "Dimensions range from 1700mm to 2200mm"
+    ]
+  }
+}
