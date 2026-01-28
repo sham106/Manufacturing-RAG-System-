@@ -628,13 +628,6 @@ Expected: All queries return relevant, data-backed responses
 
 ---
 
-## Contact
-
-**For questions during assessment:**  
-admin@informatx.digital
-
----
-
 ## Acknowledgments
 
 - **LangChain** - RAG framework
