@@ -358,27 +358,7 @@ Recommended safety stock: 22,694 kg
 - **Scale beyond:** Consider Pinecone, Weaviate, or FAISS
 - **Production:** Add caching, batch processing, API rate limits
 
----
 
-## Limitations & Future Enhancements
-
-### Current Limitations
-- No real-time data ingestion (CSV-based)
-- Limited to single-site data
-- No user authentication
-- Forecasting limited by data availability
-- No visualization dashboard
-
-### Potential Enhancements
-1. **Real-time Integration:** Connect to SCADA/MES systems
-2. **Multi-Site Support:** Aggregate data across facilities
-3. **Advanced Analytics:** Anomaly detection, predictive maintenance
-4. **Web Dashboard:** React/Streamlit frontend
-5. **API Layer:** REST API for programmatic access
-6. **Alert System:** Automated notifications for critical events
-7. **Historical Comparison:** Year-over-year trend analysis
-
----
 
 ## Challenges Encountered & Solutions
 
